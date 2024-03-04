@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import "./App.css";
 import ImagenCripto from "./assets/img/imagen-criptos.png";
+import Formulario from "./components/Formulario";
 
 const Contenedor = styled.div`
   max-width: 900px;
@@ -47,6 +48,7 @@ function App() {
 
         <div>
           <Heading>Cotiza Monedas al Instante</Heading>
+          <Formulario/>
         </div>
       </Contenedor>
     </>
